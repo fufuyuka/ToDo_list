@@ -23,7 +23,7 @@ form.addEventListener("submit", function (event) {
 function add(todo) {
   // 空でない場合のみliを生成するために、input.valueを関数に定義しif文にかける
   let todoText = input.value;
-  // ローカルストレージにtodoがあったら 
+  // ローカルストレージにtodoがあったら
   if (todo) {
     todoText = todo.text;
   }
